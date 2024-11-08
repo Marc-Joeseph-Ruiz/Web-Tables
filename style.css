@@ -1,50 +1,50 @@
 
-        body {
-            display: flex;                
-            justify-content: center;     
-            align-items: center;         
-            height: 100vh;                
-            margin: 0;                    
-            background-color: #f0f0f0;  
-            font-family: Arial, sans-serif;
-        }
+body {
+    display: flex;                
+    justify-content: center;     
+    align-items: center;         
+    height: 100vh;                
+    margin: 0;                    
+    background-color: #f0f0f0;  
+    font-family: Arial, sans-serif;
+    }
 
-        table {
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            border: 3px solid #333;      
-            margin: 0 auto;              
-            border-collapse: collapse;     
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
-            border-radius: 8px;           
-            overflow: hidden;            
-            width: 80%;
-        }
+table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid #333;      
+    margin: 0 auto;              
+    border-collapse: collapse;     
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 8px;           
+    overflow: hidden;            
+    width: 80%;
+}
 
-        thead {
-            background-color: bisque;    
-        }
+head {
+    background-color: bisque;    
+}
 
-        th, td {
-            border: 2px solid #8B4513;    
-            padding: 20px;              
-            font-size: 20px;             
-            text-align: center;          
-            transition: background-color 0.3s; 
-        }
+th, td {
+    border: 2px solid #8B4513;    
+    padding: 20px;              
+    font-size: 20px;             
+    text-align: center;          
+    transition: background-color 0.3s; 
+}
 
-        th {
-            background-color: #deb887;    
-            color: #000000;                  
-        }
+th {
+    background-color: #deb887;    
+    color: #000000;                  
+}
 
-        tr:hover td {
-            background-color: #ffe4b5;    
-        }
+tr:hover td {
+    background-color: #ffe4b5;    
+}
 
-        tfoot {
-            background-color: #f5deb3;    
-        }
+tfoot {
+    background-color: #f5deb3;    
+}
 
-        tfoot td {
-            font-weight: bold;             
-        }
+tfoot td {
+    font-weight: bold;             
+}
