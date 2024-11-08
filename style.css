@@ -1,11 +1,10 @@
-
 body {
     display: flex;                
     justify-content: center;     
     align-items: center;         
     height: 100vh;                
     margin: 0;                    
-    background-color: #f0f0f0;  
+    background-color: #ffffff;  
     font-family: Arial, sans-serif;
     }
 
@@ -18,10 +17,13 @@ table {
     border-radius: 8px;           
     overflow: hidden;            
     width: 80%;
+    table-layout: fixed;
 }
 
-head {
-    background-color: bisque;    
+thead {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #deb887;      
+    color: #000000;
 }
 
 th, td {
@@ -30,11 +32,11 @@ th, td {
     font-size: 20px;             
     text-align: center;          
     transition: background-color 0.3s; 
+    word-wrap: break-word;
 }
 
 th {
     background-color: #deb887;    
-    color: #000000;                  
 }
 
 tr:hover td {
