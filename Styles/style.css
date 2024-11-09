@@ -6,7 +6,7 @@ body {
     margin: 0;                    
     background-color: #ffffff;  
     font-family: Arial, sans-serif;
-    }
+}
 
 table {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -16,8 +16,9 @@ table {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
     border-radius: 8px;           
     overflow: hidden;            
-    width: 80%;
-    table-layout: fixed;
+    width: 90%; /* Adjusted to 90% for better fitting */
+    max-width: 1200px; /* Set a maximum width */
+    table-layout: fixed; /* Ensures that the table respects the width of its columns */
 }
 
 thead {
@@ -28,18 +29,19 @@ thead {
 
 th, td {
     border: 2px solid #8B4513;    
-    padding: 20px;              
-    font-size: 20px;             
+    padding: 10px; /* Reduced padding for better fitting */
+    font-size: 18px; /* Slightly reduced font size */
     text-align: center;          
     transition: background-color 0.3s; 
-    word-wrap: break-word;
+    word-wrap: break-word; /* Ensures long words break */
+    overflow: hidden; /* Hides overflow content */
 }
 
 th {
     background-color: #deb887;    
 }
 
-tr:hover td {
+tr:hover {
     background-color: #ffe4b5;    
 }
 
